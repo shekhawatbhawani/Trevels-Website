@@ -1,0 +1,33 @@
+@media (max-width: 640px) {
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    gap: 20px;
+    justify-content: center;
+  }
+  main .box1 {
+    flex-direction: column;
+  }
+  footer .footer {
+    flex-direction: column;
+  }
+  main .box11 {
+    flex-direction: column;
+  }
+  main .box12 {
+    flex-direction: column-reverse;
+  }
+  main .box2 .cart {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  main .box1 .img,
+  .box1 .content {
+    width: 100%;
+  }
+  .box2 {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+main {
+  padding: 10px;
+}
+header nav {
+  display: flex;
+  background-color: rgb(43, 43, 43);
+  justify-content: space-between;
+  padding: 1.5em 5em;
+}
+header h1 {
+  color: white;
+  font-size: 2rem;
+  margin: 20px 0px;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  list-style-type: none;
+  margin: auto 2em;
+}
+header nav ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.container h1 {
+  padding: 0.3em 0em;
+  border-bottom: 5px solid red;
+  margin: 0.5em 0em;
+}
+.container p {
+  color: rgb(117, 115, 115);
+  line-height: 1.3em;
+  word-spacing: 0.3em;
+  letter-spacing: 0.1em;
+  font-size: 1.5rem;
+}
+.container h1 {
+  font-size: 3em;
+  margin: 10px 0px;
+}
+.container .box {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2em 0em;
+}
+.container .box2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container .box2 h2 {
+  color: red;
+  text-align: center;
+}
+.container .box2 p {
+  font-weight: bold;
+}
+@media (max-width: 510) {
+  .container .box2 {
+    display: block;
+    flex-direction: row;
+  }
+}
+.container .box3 {
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2em 0em;
+}
+.container .box3 .second {
+  border: 2px solid white;
+  font-size: 2rem;
+  margin: 0.1em 0.3em;
+  padding: 8px 10px;
+  text-align: center;
+}
+.container .box3 .frist {
+  font-size: 2rem;
+  margin: 1em;
+}
+
+@media (max-width: 470px) {
+  nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+  nav ul {
+    justify-content: center;
+  }
+  header h1 {
+    text-align: center;
+  }
+}
